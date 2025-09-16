@@ -19,7 +19,7 @@ import dao.ChatDAO;
 @WebServlet("/chatbotProxy")
 public class ChatbotProxyServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
-    private static final String API_KEY = "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"; 
+    private static final String API_KEY = ""; 
     private static final String MODEL = "deepseek/deepseek-chat-v3-0324:free";
 
     public ChatbotProxyServlet() {
