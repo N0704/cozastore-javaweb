@@ -11,9 +11,9 @@ import com.google.gson.JsonParser;
 import model.Users;
 
 public class GoogleUtils {
-    private static final String CLIENT_ID = "1029180138035-sa97v49l21995d6iia9tsobtsn2mo63t.apps.googleusercontent.com";
-    private static final String CLIENT_SECRET = "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";
-    private static final String REDIRECT_URI = "http://localhost:8080/coza_store/login-google";
+    private static final String CLIENT_ID = "";
+    private static final String CLIENT_SECRET = "";
+    private static final String REDIRECT_URI = "";
 
     public static String getToken(String code) throws IOException {
         String params = "code=" + code
