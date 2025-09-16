@@ -6,7 +6,7 @@ import jakarta.mail.internet.*;
 
 public class EmailUtils {
     private static final String FROM_EMAIL = "coza.vn@gmail.com"; // Gmail của bạn
-    private static final String PASSWORD = "guwe xvyx zrkv miuv"; // App password từ Gmail
+    private static final String PASSWORD = ""; // App password từ Gmail
 
     public static void sendEmail(String toEmail, String subject, String messageText) {
         Properties props = new Properties();
